@@ -7,6 +7,12 @@
 </head>
 <body style="background-image: url('0001.png');">
 </body>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+</IfModule>
 <body>
   <div class="box-container"></div>
   <div class="logo"></div>
