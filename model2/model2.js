@@ -1,4 +1,4 @@
-const images = Array.from({ length: 400 }, (_, i) => `${String(i + 1).padStart(4, '0')}.png`);
+const images = Array.from({ length: 360 }, (_, i) => `${String(i + 1).padStart(4, '0')}.jpg`);
 
 let currentIndex = 0;
 let prevMouseX = null;

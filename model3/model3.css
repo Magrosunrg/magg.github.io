@@ -19,6 +19,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: absolute;
   right: 150px;
+  background-image: url('0001.jpg');
 }
 body{
   background:#390002;
@@ -176,3 +177,42 @@ a {
     top: 6px;
     left: 46px;
 }	
+.slider {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  gap:5 px;
+  top: 200px;
+  left: 900px;
+}
+
+.arrow {
+  color: #ffffff;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  
+}
+.arrow.left {
+  border-width: 10px 15px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.arrow.right {
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent white;
+}
+.line {
+  height: 2px;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 1px;
+}
+.info {
+  font-family: "Garamond", Garamond, serif;
+  font-size: 24px;
+  position: absolute;
+  top: 230px;
+  left: 845px;
+  color: #ffffff;
+}
