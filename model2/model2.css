@@ -22,7 +22,7 @@ body {
   background-image: url('0001.jpg');
 }
 body{
-  background:#390002;
+  background: #1E1E1E;
 }
 .box-container {
   width: 86%;
@@ -215,4 +215,22 @@ a {
   top: 230px;
   left: 845px;
   color: #ffffff;
+}
+.text-container {
+  width: 490px;
+  height: 470px;
+  background-color: #121212;
+  border-radius: 10px;
+  border-color: #121222;
+  border-style: solid;
+  position: absolute;
+  left: 150px;
+  border-width: 10px;
+}
+.text {
+  color: #ffffff;
+  font-family: "Garamond", Garamond, serif;
+  position: absolute;
+  font-size: 20px;
+  text-align: justify;
 }

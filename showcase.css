@@ -177,54 +177,31 @@ a {
   top: 6px;
   left: 46px;
 }	
-.slider {
-  display: flex;
-  align-items: center;
+.yt1 {
   position: absolute;
-  gap:5 px;
-  top: 200px;
-  left: 900px;
-}
-
-.arrow {
-  color: #ffffff;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  
-}
-.arrow.left {
-  border-width: 10px 15px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-
-.arrow.right {
-  border-width: 10px 0 10px 15px;
-  border-color: transparent transparent transparent white;
-}
-.line {
-  height: 2px;
-  width: 350px;
-  background-color: #ffffff;
-  border-radius: 1px;
-}
-.info {
-  font-family: "Garamond", Garamond, serif;
-  font-size: 24px;
+  top: 150px;
+  right: 100px;
+}  
+.yt2 {
   position: absolute;
-  top: 230px;
-  left: 845px;
-  color: #ffffff;
+  top: 450px;
+  right: 100px;
+}
+.yt3 {
+  position: absolute;
+  top: 450px;
+  right: 900px;
 }
 .text-container {
-  width: 490px;
-  height: 470px;
+  width: 480px;
+  height: 270px;
   background-color: #121212;
   border-radius: 10px;
   border-color: #121222;
   border-style: solid;
   position: absolute;
-  left: 150px;
+  top: 150px;
+  right: 892px;
   border-width: 10px;
 }
 .text {
